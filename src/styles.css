@@ -1,21 +1,16 @@
-/* Application-wide Styles */
 h1 {
-    color: #369;
+    display: flex;
+    justify-content: center;
+    color: rgb(44, 44, 44);
     font-family: Arial, Helvetica, sans-serif;
     font-size: 250%;
   }
-  h2, h3 {
-    color: #444;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: lighter;
-  }
+  
   body {
-    margin: 2em;
+    display: flex;
+    justify-content: center;
   }
-  body, input[type="text"], button {
-    color: #333;
-    font-family: Cambria, Georgia, serif;
-  }
+  
   button {
     background-color: #eee;
     border: none;
@@ -23,13 +18,11 @@ h1 {
     cursor: pointer;
     color: black;
     font-size: 1.2rem;
-    padding: 1rem;
-    margin-right: 1rem;
-    margin-bottom: 1rem;
-    margin-top: 1rem;
-  }
+   }
+  
   button:hover {
     background-color: black;
+    border: 1px solid rgb(141, 141, 141);
     color: white;
   }
   button:disabled {
@@ -38,7 +31,7 @@ h1 {
     cursor: auto;
   }
   
-  /* everywhere else */
+  
   * {
     font-family: Arial, Helvetica, sans-serif;
   }

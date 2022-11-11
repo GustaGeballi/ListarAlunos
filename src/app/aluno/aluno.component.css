@@ -18,6 +18,7 @@ ul{
 }
 
 .container{
+
   display: flex;
   justify-content: center;
   margin: 30px;
@@ -69,21 +70,25 @@ box-shadow: -5px 5px 5px rgba(0, 0, 0, 0.11);
   color: #000000;
   background-color: #e6e6e6;
   left: .1em;
+  box-shadow: -2px 3px 4px rgba(0, 0, 0, 0.377);
 }
 
 .alunos button:active {
   background-color: #525252;
   color: #fafafa;
+  box-shadow: -2px 3px 4px rgba(0, 0, 0, 0.377);
 }
 
 .alunos button.selected {
   background-color: #585858;
   color: white;
+  box-shadow: -2px 3px 4px rgba(0, 0, 0, 0.377);
 }
 
 .alunos button.selected:hover {
-  background-color: #c1c1c1;
-  color: rgb(0, 0, 0);
+  background-color: #1d1d1d;
+  color: rgb(255, 255, 255);
+  box-shadow: -2px 3px 4px rgba(0, 0, 0, 0.377);
 }
 
 .alunos button.selected:active {

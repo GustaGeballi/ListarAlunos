@@ -12,10 +12,21 @@
 
 <div *ngIf="selectedAluno" class="detalhes">
   <h2>Detalhes do aluno: {{selectedAluno.nome | uppercase}}</h2>
-  <div>id: {{selectedAluno.id}}</div>
-  <div>
+  <div><strong>ID: </strong>{{selectedAluno.id}}</div>
+  <div  class = "ap">
     <label for="nome-aluno">Nome do Aluno: </label>
-    <input id="nome-aluno" [(ngModel)]="selectedAluno.nome" placeholder="nome">
-  </div>
+    <input id="nome-aluno" [(ngModel)]="selectedAluno.nome" placeholder="nome" maxlength="15">
+</div>
+<div  class = "ap">
+    <label for="nome-aluno">Sobrenome do Aluno: </label>
+    <input id="nome-aluno" [(ngModel)]="selectedAluno.sobrenome" placeholder="nome" maxlength="">
+</div>
+<div  class = "ap">
+    <label for="nome-aluno">Idade do Aluno: </label>
+    <input id="nome-aluno" [(ngModel)]="selectedAluno.idade" placeholder="nome" maxlength="15">
+</div>
+<div  class = "ap">
+    <label for="nome-aluno">Altura do Aluno: </label>
+    <input id="nome-aluno" [(ngModel)]="selectedAluno.altura" placeholder="nome" maxlength="15">
 </div>
 </div>
